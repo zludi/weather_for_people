@@ -1,54 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>337</width>
-    <height>279</height>
+    <width>401</width>
+    <height>312</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Form</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>0</y>
-      <width>47</width>
-      <height>13</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-   </widget>
-   <widget class="PlotWidget" name="graphicsView">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>30</y>
-      <width>256</width>
-      <height>192</height>
-     </rect>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
+  <widget class="PlotWidget" name="graphicsView">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>337</width>
-     <height>21</height>
+     <width>401</width>
+     <height>311</height>
     </rect>
    </property>
+   <property name="backgroundBrush">
+    <brush brushstyle="NoBrush">
+     <color alpha="10">
+      <red>203</red>
+      <green>242</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="foregroundBrush">
+    <brush brushstyle="NoBrush">
+     <color alpha="255">
+      <red>94</red>
+      <green>35</green>
+      <blue>182</blue>
+     </color>
+    </brush>
+   </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <customwidgets>
   <customwidget>
